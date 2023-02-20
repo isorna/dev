@@ -1,5 +1,7 @@
 # Frontend Development Boilerplate Project
 
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
+
 This is my current favored tech stack, currently deployed at [isorna.dev](https://isorna.dev).
 
 ## Dependencies
@@ -26,6 +28,8 @@ This is my current favored tech stack, currently deployed at [isorna.dev](https:
 8. Investigar si es necesario [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
 9. Añadir el preprocesado de imágenes (imagemin, svg optimizer etc) en el lintstagedrc?
 10. Añadir etiquetas automáticas al README.md: INVESTIGAR cómo hacerlo, y cuáles poner.
+11. ¿Instalar [Nuxt devtools](https://github.com/nuxt/devtools?s=03)?
+12. Revisar [Volar.js](https://blog.vuejs.org/posts/volar-a-new-beginning.html?s=03) y [Volar.io](https://volarjs.github.io/)
 
 [Git Hooks]: https://git-scm.com/docs/githooks
 [lint-staged]: https://www.npmjs.com/package/lint-staged
