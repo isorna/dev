@@ -62,6 +62,21 @@ echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitl
 
 [Commitlint VS Code extension](https://marketplace.visualstudio.com/items?itemName=joshbolduc.commitlint)
 
+## [markdownlint]
+
+TODO: documentar configuración de markdownlint
+
+Archivo ```.markdownlint.json```, para desactivar el warning por HTML entro de un .md (MD033) y el máximo de 80 caracteres por línea (MD013):
+
+```json
+{
+  "MD033": false,
+  "MD013": false
+}
+```
+
+[markdownlint VS Code extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
 ## [lint-staged]
 
 TODO: documentar configuración de lint-staged
@@ -71,4 +86,5 @@ TODO: documentar configuración de lint-staged
 [ESLint]: https://eslint.org/
 [Stylelint]: https://stylelint.io/
 [commitlint]: https://commitlint.js.org/
+[markdownlint]: https://github.com/DavidAnson/markdownlint
 [lint-staged]: https://www.npmjs.com/package/lint-staged
