@@ -30,6 +30,7 @@ This is my current favored tech stack, currently deployed at [isorna.dev](https:
 10. Añadir etiquetas automáticas al README.md: INVESTIGAR cómo hacerlo, y cuáles poner.
 11. ¿Instalar [Nuxt devtools](https://github.com/nuxt/devtools?s=03)?
 12. Revisar [Volar.js](https://blog.vuejs.org/posts/volar-a-new-beginning.html?s=03) y [Volar.io](https://volarjs.github.io/)
+13. Desarrollar un plugin de VS Code para el diario de proyecto.
 
 [Git Hooks]: https://git-scm.com/docs/githooks
 [lint-staged]: https://www.npmjs.com/package/lint-staged

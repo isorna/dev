@@ -8,4 +8,8 @@ Por ejemplo, añadir un ```.gitignore``` por defecto.
 
 ## Cómo configurar VS Code para emular a Prettier
 
+## Creación de plugins para VS Code
+
+### Diario de proyecto
+
 > Alvaro Isorna
