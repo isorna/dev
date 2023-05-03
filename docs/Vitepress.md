@@ -10,3 +10,4 @@
 * Buscar una forma de aplicar plantillas para los artículos.
 * ¿Cambio la estructura de articles?, creo que quedan urls feas y demasiado largas (por la fecha).
 * Buscar una solución para las páginas duplicadas innecesariamente (por la traducción).
+* Añadir la dependencia a ```front-matter``` ya que es imprescindible para manejar los metadatos de los ficheros ```.md```.
