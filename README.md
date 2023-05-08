@@ -32,6 +32,7 @@ This is my current favored tech stack, currently deployed at [isorna.dev](https:
 12. Revisar [Volar.js](https://blog.vuejs.org/posts/volar-a-new-beginning.html?s=03) y [Volar.io](https://volarjs.github.io/)
 13. Desarrollar un plugin de VS Code para el diario de proyecto.
 14. Instalar ```front-matter``` como dependencia de desarrollo.
+15. Ver cómo registrar mi propia librería en [js.org](https://js.org/)!!!.
 
 [Git Hooks]: https://git-scm.com/docs/githooks
 [lint-staged]: https://www.npmjs.com/package/lint-staged

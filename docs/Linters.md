@@ -77,6 +77,12 @@ Archivo ```.markdownlint.json```, para desactivar el warning por HTML entro de u
 
 [markdownlint VS Code extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
+## [remark]
+
+Lint and format markdown code with remark and [remark-lint](https://github.com/remarkjs/remark-lint)
+
+[remark VS Code extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-remark)
+
 ## [lint-staged]
 
 TODO: documentar configuración de lint-staged
@@ -87,4 +93,5 @@ TODO: documentar configuración de lint-staged
 [Stylelint]: https://stylelint.io/
 [commitlint]: https://commitlint.js.org/
 [markdownlint]: https://github.com/DavidAnson/markdownlint
+[remark]: https://remark.js.org/
 [lint-staged]: https://www.npmjs.com/package/lint-staged
