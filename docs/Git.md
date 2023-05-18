@@ -15,4 +15,36 @@ git push -u origin main
 
 ## Compartir templates
 
+## Submódulos
+
+Primero entras en la carpeta de tu proyecto principal desde el terminal, donde quieres que se clone el submódulo, y a continuación:
+
+```terminal
+git submodule [--name <submodule-name>] <repository> [<submodule-path>]
+```
+
+Luego hay que asegurarse de que se creó correctamente el archivo ```/.gitmodules```, de otro modo hay que crearlo a mano. Asegúrate de que haya un espacio en blanco entre los símbolos ```=``` y el texto por delante y por detrás de éstos:
+
+```yaml
+[submodule "submodule-name"]
+	path = submodule-path
+	url = https://github.com/user/repository.git
+```
+
+Para eliminar un submódulo usa:
+
+```terminal
+git submodule deinit -f — submodule-name
+rm -rf .git/modules/submodule-name
+git rm -f submodule-name
+```
+
+### Integración con CI
+
+Recuerda que cada submódulo tiene sus propios git hooks, así que no le afectan los del repositorio donde se encuentra y tendrás que configurar su propio _lintstaged_ si quieres integrar herramientas de este tipo dentro de los submódulos.
+
+Es muy probable que necesites habilitar las opciones de ejecución recursiva en tus comandos, revisa la documentación de tu _CI_ específico para más información.
+
+Para más información, mejor [leer la referencia](https://git-scm.com/docs/gitmodules).
+
 > Alvaro Isorna
