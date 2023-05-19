@@ -20,7 +20,7 @@ git push -u origin main
 Primero entras en la carpeta de tu proyecto principal desde el terminal, donde quieres que se clone el submódulo, y a continuación:
 
 ```terminal
-git submodule [--name <submodule-name>] <repository> [<submodule-path>]
+git submodule add [--name <submodule-name>] <repository> [<submodule-path>]
 ```
 
 Luego hay que asegurarse de que se creó correctamente el archivo ```/.gitmodules```, de otro modo hay que crearlo a mano. Asegúrate de que haya un espacio en blanco entre los símbolos ```=``` y el texto por delante y por detrás de éstos:
