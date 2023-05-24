@@ -1,5 +1,11 @@
 # Automatización
 
+Lista de artículos para leer y aplicar:
+
+* [Uso de pnpm para reducir los tiempos de build](https://dev.to/maxprilutskiy/how-i-sliced-deployment-times-to-a-fraction-and-achieved-lightning-fast-deployments-to-production-with-github-actions-4ifi).
+* [Uso de OpenAI para creación automática de los mensajes de commit](https://dev.to/disukharev/opencommit-github-action-to-improve-commits-with-meaningful-messages-on-every-git-push-1i3a).
+* [Uso de ChatGPT para desarrolladores web](https://firt.dev/chatgpt-web/).
+
 ## Generación de etiquetas automáticas en el README.md
 
 TODO: INVESTIGAR cómo hacerlo, y cuáles poner.
