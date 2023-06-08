@@ -5,10 +5,13 @@
 TODO: documentar configuración de ESLint
 
 ```bash
+npm install --save-dev eslint eslint-plugin-vue
 npm init @eslint/config
 ```
 
 [ESLint VS Code extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
+
+### [Standard](https://github.com/standard/standard)
 
 ## [Stylelint]
 
@@ -37,6 +40,20 @@ npx stylelint "**/*.css"
 ```
 
 [Stylelint VS Code extension](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+
+Añadir la extensión ```.vue``` a los settings: ```stylelint.validate```.
+
+[stylelint-config-recommended-vue](https://github.com/ota-meshi/stylelint-config-recommended-vue).
+
+```bash
+npm install --save-dev postcss-html stylelint-config-recommended-vue
+```
+
+Modificar la configuración:
+
+```bash
+echo "{\n\"extends\": [\"stylelint-config-standard\", \"stylelint-config-recommended-vue\"]\n}" > .stylelintrc.json
+```
 
 ## [commitlint]
 
