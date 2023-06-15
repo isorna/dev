@@ -2,7 +2,7 @@
 
 TODO: documentar el inicio de un proyecto.
 
-```terminal
+```bash
 git init
 git add README.md
 git commit -m "feat: project setup"
@@ -19,7 +19,7 @@ git push -u origin main
 
 Primero entras en la carpeta de tu proyecto principal desde el terminal, donde quieres que se clone el submódulo, y a continuación:
 
-```terminal
+```bash
 git submodule add [--name <submodule-name>] <repository> [<submodule-path>]
 ```
 
