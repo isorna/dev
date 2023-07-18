@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+
+echo COMMIT-MSG GIT HOOK commitlint
+npx --no -- commitlint --edit ${1}

@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+
+echo PRE-PUSH GIT HOOK test
+npm run test
+echo TO DO: save historic test results
+echo TO DO: if OK, update task

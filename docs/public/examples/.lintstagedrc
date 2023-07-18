@@ -1,0 +1,6 @@
+{
+  "*.{js,jsx,ts,tsx}": "eslint --fix",
+  "*.css": "stylelint",
+  "*.scss": ["postcss --config postcss.config.js --replace", "stylelint"],
+  "*.md": "remark --frail --quiet --ignore-path .remarkignore --rc-path .remarkrc.json --"
+}
