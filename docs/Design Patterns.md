@@ -12,6 +12,7 @@ Design Patterns
 Architecture Patterns
 * Model-View-Controller (MVC)
 * Model-View-Presenter (MVP)
+* [Model-View-ViewModel](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel) (MVVM)
 * Monolithic
 * Micro-service
 

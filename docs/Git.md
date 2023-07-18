@@ -34,9 +34,9 @@ Luego hay que asegurarse de que se creó correctamente el archivo ```/.gitmodule
 Para eliminar un submódulo usa:
 
 ```terminal
-git submodule deinit -f — submodule-name
+git submodule deinit -f submodule-path
 rm -rf .git/modules/submodule-name
-git rm -f submodule-name
+git rm -f submodule-path
 ```
 
 ### Integración con CI
