@@ -10,6 +10,14 @@ git branch -M main
 git remote add origin https://github.com/$GITHUB_USER/$REPO_NAME.git
 git push -u origin main
 ```
+## Configuración
+
+**Importante**: añadir siempre el nombre de usuario y el email por defecto en la configuración de git:
+
+```terminal
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+```
 
 ## Gitignore
 
