@@ -39,6 +39,20 @@ rm -rf .git/modules/submodule-name
 git rm -f submodule-path
 ```
 
+Si los submódulos no se están descargando al hacer checkout del proyecto, tendrás que lanzar un fetch recursivo:
+
+```terminal
+git submodule update --init --recursive
+```
+
+Otras opciones también son (según la versión de Git):
+
+```terminal
+git submodule update --recursive --remote
+git submodule update --recursive
+git pull --recurse-submodules
+```
+
 ### Integración con CI
 
 Recuerda que cada submódulo tiene sus propios git hooks, así que no le afectan los del repositorio donde se encuentra y tendrás que configurar su propio _lintstaged_ si quieres integrar herramientas de este tipo dentro de los submódulos.
