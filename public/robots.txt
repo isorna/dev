@@ -1,0 +1,9 @@
+# Full syntax: https://developers.google.com/search/docs/advanced/robots/create-robots-txt
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://isorna.dev/sitemap-index.xml

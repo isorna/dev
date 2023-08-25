@@ -1,0 +1,26 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/isorna/dev.git",
+  "author": "Alvaro Isorna <@isorna>",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/lit": "^2.1.1",
+    "@astrojs/markdoc": "^0.4.4",
+    "@astrojs/mdx": "^0.19.7",
+    "@astrojs/partytown": "^1.2.3",
+    "@astrojs/sitemap": "^2.0.2",
+    "@astrojs/vue": "^2.2.1",
+    "@webcomponents/template-shadowroot": "^0.2.1",
+    "astro": "^2.10.14",
+    "lit": "^2.7.0",
+    "vue": "^3.2.30"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  }
+}

@@ -14,7 +14,7 @@ dist
 dist-ssr
 coverage
 *.local
-__hidden
+# __hidden
 
 /cypress/videos/
 /cypress/screenshots/
@@ -22,7 +22,7 @@ __hidden
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
-# !.vscode/settings.json
+!.vscode/settings.json
 # !.vscode/launch.json
 .idea
 *.suo
