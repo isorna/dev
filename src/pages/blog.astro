@@ -1,23 +1,11 @@
 ---
-
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Isorna.dev Blog";
 ---
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>Isorna.dev Blog</title>
-  </head>
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog/">Blog</a>
-    <h1>Isorna.dev Blog</h1>
-    <ul>
-      <li><a href="/posts/my-way/">My Way</a></li>
-      <li><a href="/posts/post-2/">Post 2</a></li>
-      <li><a href="/posts/post-3/">Post 3</a></li>
-    </ul>
-  </body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <ul>
+    <li><a href="/posts/my-way/">My Way</a></li>
+    <li><a href="/posts/post-2/">Post 2</a></li>
+    <li><a href="/posts/post-3/">Post 3</a></li>
+  </ul>
+</BaseLayout>
