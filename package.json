@@ -6,7 +6,7 @@
   "author": "Alvaro Isorna <@isorna>",
   "license": "MIT",
   "dependencies": {
-    "@astrojs/lit": "^2.1.1",
+    "@astrojs/lit": "^3.0.3",
     "@astrojs/markdoc": "^0.4.4",
     "@astrojs/mdx": "^0.19.7",
     "@astrojs/partytown": "^1.2.3",
