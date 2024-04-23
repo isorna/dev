@@ -6,7 +6,8 @@ Aplicando el uso de la API de [AbortSignal](https://developer.mozilla.org/en-US/
 
 ```js
 // simpleFetch.ts
-// 1. Definimos nuestra propia clase para gestionar los errores, ya que las peticiones erróneas no devuelven un status adecuado cuando lanzan un error normal:
+// 1. Definimos nuestra propia clase para gestionar los errores,
+// ya que las peticiones erróneas no devuelven un status adecuado cuando lanzan un error normal:
 export class HttpError extends Error {
   constructor(public response: Response) {
     super(`HTTP error ${response.status}`;
