@@ -1,11 +1,11 @@
 # JavaScript
 
-## Snippet para ejecutar llamadas fetch actualizado a 2024
+## Ejecución de llamadas fetch
 
 Aplicando el uso de la API de [AbortSignal](https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal) podemos optimizar las llamadas fetch de nuestra aplicación, y controlarlas de manera más profesional.
 
 ```js
-// /fetch.utils.ts
+// simpleFetch.ts
 // 1. Definimos nuestra propia clase para gestionar los errores, ya que las peticiones erróneas no devuelven un status adecuado cuando lanzan un error normal:
 export class HttpError extends Error {
   constructor(public response: Response) {
@@ -29,7 +29,7 @@ export async simpleFetch<ResponseType = any> (
 De esta manera, podríamos usar estas utilidades:
 
 ```js
-// /fetchUsers.ts
+// fetchUsers.ts
 try {
   const result = await simpleFetch<User>('/url', {
     // Si la petición tarda demasiado, la abortamos
