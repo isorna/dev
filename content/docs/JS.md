@@ -38,7 +38,7 @@ try {
   });
 } catch (err) {
   if (err.name === 'AbortError') {
-    console.log('Fetch abortado);
+    console.log('Fetch abortado');
   }
   if (err instanceof HttpError) {
     if (err.response.status === 404) {
