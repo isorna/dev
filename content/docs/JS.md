@@ -10,7 +10,7 @@ Aplicando el uso de la API de [AbortSignal](https://developer.mozilla.org/en-US/
 // ya que las peticiones erróneas no devuelven un status adecuado cuando lanzan un error normal:
 export class HttpError extends Error {
   constructor(public response: Response) {
-    super(`HTTP error ${response.status}`;
+    super(`HTTP error ${response.status}`);
   }
 }
 
