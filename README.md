@@ -9,7 +9,7 @@ This is my current favored tech stack, currently deployed at [isorna.dev](https:
 
 * Code linters: [ESLint], [Stylelint], [commitlint]
 * Compilers: [Babel], [PostCSS] with [Autoprefixer] and [cssnano]
-* Static content generator: [Vitepress]
+* Static content generator: [Vitepress] or [Astro] (WIP)
 * CDN and Database: [Firebase] & [Vuefire]
 * Frontend framework: [Vue] & [Pinia]
 * Testing suite: [Vitest]
@@ -52,6 +52,7 @@ This is my current favored tech stack, currently deployed at [isorna.dev](https:
 [Pinia]: https://pinia.vuejs.org/getting-started.html
 [Vuetify]: https://vuetifyjs.com/en/
 [Storybook]: https://storybook.js.org/
+[Astro]: https://astro.build/
 [Conventional Commits]: https://www.conventionalcommits.org/en/v1.0.0/
 [release-please]: https://github.com/googleapis/release-please
 [Firebase]: https://firebase.google.com/
