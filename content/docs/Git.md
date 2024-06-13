@@ -14,7 +14,7 @@ git push -u origin main
 
 **Importante**: añadir siempre el nombre de usuario y el email por defecto en la configuración de git:
 
-```terminal
+```bash
 $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
@@ -41,7 +41,7 @@ Luego hay que asegurarse de que se creó correctamente el archivo ```/.gitmodule
 
 Para eliminar un submódulo usa:
 
-```terminal
+```bash
 git submodule deinit -f submodule-path
 rm -rf .git/modules/submodule-name
 git rm -f submodule-path
@@ -49,13 +49,13 @@ git rm -f submodule-path
 
 Si los submódulos no se están descargando al hacer checkout del proyecto, tendrás que lanzar un fetch recursivo:
 
-```terminal
+```bash
 git submodule update --init --recursive
 ```
 
 Otras opciones también son (según la versión de Git):
 
-```terminal
+```bash
 git submodule update --recursive --remote
 git submodule update --recursive
 git pull --recurse-submodules
