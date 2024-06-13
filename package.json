@@ -9,7 +9,7 @@
     "@astrojs/lit": "^2.1.1",
     "@astrojs/markdoc": "^0.4.4",
     "@astrojs/mdx": "^0.19.7",
-    "@astrojs/partytown": "^1.2.3",
+    "@astrojs/partytown": "^2.0.3",
     "@astrojs/rss": "^2.4.4",
     "@astrojs/sitemap": "^2.0.2",
     "@astrojs/vue": "^2.2.1",
