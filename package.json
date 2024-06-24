@@ -16,7 +16,7 @@
     "@webcomponents/template-shadowroot": "^0.2.1",
     "astro": "^2.10.14",
     "lit": "^2.7.0",
-    "vue": "^3.4.27"
+    "vue": "^3.4.30"
   },
   "scripts": {
     "dev": "astro dev",
